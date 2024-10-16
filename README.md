@@ -18,9 +18,6 @@ The **Stock Price Prediction App** is a mobile application built with **Flutter*
 - **Dart**: The programming language used for Flutter app development.
 - **ARIMA Model**: A time-series forecasting model for predicting future stock prices.
 
-## Screenshots
-![App Screenshot](https://link-to-screenshot)  
-_Showcase the key features of your app through images or GIFs._
 
 ## Installation
 
@@ -30,6 +27,37 @@ _Showcase the key features of your app through images or GIFs._
 - Flask and ARIMA-related dependencies
 
 ### Steps to Run the App
+Backend Setup (API): Navigate to the backend directory containing the ARIMA model and Flask API:
+
+
+cd backend
+
+Install the required Python dependencies:
+
+
+pip install -r requirements.txt
+
+Run the Flask API:
+
+
+python app.py
+
+Frontend (Flutter App): Navigate to the Flutter project directory:
+
+
+cd flutter_app
+
+Fetch the necessary Flutter dependencies:
+
+flutter pub get
+
+Run the Flutter app:
+
+
+flutter run
+
+
+
 
 1. **Clone the repository**:
    ```bash
